@@ -84,4 +84,4 @@ O algoritmo MD2 é um algoritmo de hash criptográfico que gera um valor hash de
 
 17. O programa é encerrado com o valor de retorno 0.
 
-Espero que esta explicação detalhada ajude a compreender o funcionamento do algoritmo de hash MD2 implementado em C. Se tiver mais dúvidas, sinta-se à vontade para perguntar.
+Espero que esta explicação detalhada ajude a compreender o funcionamento do algoritmo de hash MD2 (Message Digest 2) implementado em C. Se tiver mais dúvidas, sinta-se à vontade para perguntar.
