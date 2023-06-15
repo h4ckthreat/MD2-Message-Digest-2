@@ -1,4 +1,4 @@
-# MD2-Message-Digest-Algorithm-2:
+# MD2 Message Digest Algorithm 2:
 
 Um hash MD2 é um valor de resumo criptográfico de 128 bits gerado pelo algoritmo MD2. É usado para representar de forma única e compacta dados de entrada, sendo útil para verificar a integridade dos dados. No entanto, o MD2 é considerado inseguro devido a vulnerabilidades conhecidas. Portanto, em aplicações modernas, é preferível usar algoritmos de hash mais seguros, como SHA-256 ou SHA-3.
 
