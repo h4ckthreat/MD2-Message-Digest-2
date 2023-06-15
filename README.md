@@ -1,6 +1,14 @@
 # MD2 Message Digest Algorithm 2:
 
-Um hash MD2 é um valor de resumo criptográfico de 128 bits gerado pelo algoritmo MD2. É usado para representar de forma única e compacta dados de entrada, sendo útil para verificar a integridade dos dados. No entanto, o MD2 é considerado inseguro devido a vulnerabilidades conhecidas. Portanto, em aplicações modernas, é preferível usar algoritmos de hash mais seguros, como SHA-256 ou SHA-3.
+O algoritmo de hash MD2 (Message Digest 2) é uma função criptográfica de hash desenvolvida por Ronald Rivest em 1989. É considerada uma das primeiras iterações da família MD, que inclui também o MD4, MD5 e MD6. No entanto, devido a algumas fraquezas de segurança, o MD2 não é mais amplamente usado e foi considerado obsoleto.
+
+O MD2 é projetado para produzir um valor hash de 128 bits (16 bytes) para uma entrada de tamanho arbitrário. Ele opera em blocos de 16 bytes e faz uso de várias tabelas de substituição predefinidas. O algoritmo executa uma série de transformações em cada bloco de dados, incluindo permutações, operações de substituição e deslocamentos bitwise.
+
+Uma das principais fraquezas do MD2 é sua vulnerabilidade à colisão e pré-imagem. Colisão ocorre quando duas entradas diferentes produzem o mesmo valor hash, enquanto pré-imagem se refere à capacidade de encontrar uma entrada específica para um determinado hash. Essas vulnerabilidades foram exploradas e demonstradas por ataques práticos, tornando o MD2 inadequado para aplicações que requerem segurança robusta.
+
+Devido a essas fraquezas, o MD2 foi amplamente substituído por algoritmos de hash mais seguros, como o SHA-1 (Secure Hash Algorithm 1) e posteriormente o SHA-256 (Secure Hash Algorithm 256 bits). Esses algoritmos são amplamente usados em aplicações criptográficas modernas, como assinaturas digitais e autenticação de dados.
+
+Em resumo, o MD2 foi um algoritmo de hash desenvolvido na década de 1980, mas suas vulnerabilidades de segurança levaram à sua obsolescência. É recomendado utilizar algoritmos de hash mais modernos e seguros, como os da família SHA.
 
 # Funcionamento:
 
