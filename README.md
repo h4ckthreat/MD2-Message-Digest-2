@@ -28,7 +28,7 @@ O algoritmo MD2 opera em blocos de 16 bytes e produz um resumo de 128 bits (16 b
 
 É importante destacar que esse pseudocódigo é uma versão simplificada e não leva em consideração certos detalhes técnicos. Além disso, como o MD2 foi considerado inseguro devido a vulnerabilidades conhecidas, não é recomendado utilizá-lo em aplicações modernas que exigem alta segurança criptográfica. Recomenda-se o uso de algoritmos mais recentes e seguros, como SHA-256 ou SHA-3.
 
-# implmentação:
+# implementação:
 
 Vou explicar detalhadamente o algoritmo de hash MD2 implementado em C.
 
